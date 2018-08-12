@@ -8,6 +8,7 @@ int main(int i,char** str){
 	char *p;
 	int seed;
 	SP_BUFF_SET();
+	printf("hi");
 	if(i>=2){
 		seed=strtol(str[1], &p, 10);
 		srand(seed);				/*sets the seed*/
